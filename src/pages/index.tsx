@@ -39,12 +39,17 @@ export default function Home() {
               usuário.
             </p>
             <div className={styles.techs}>
-              <a href="https://github.com/Casali-Code" target="_blank">
+              <a
+                href="https://github.com/Casali-Code"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FiGithub />
               </a>
               <a
                 href="https://www.linkedin.com/in/guilhermecasali/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FiLinkedin />
               </a>
